@@ -1,2 +1,3 @@
 # multimedia-engineering-concepts
-Contains everything to do with programming in the multimedia fieldl
+
+Contains stuff to help with building software for multimedia field. This includes how to demux videos, handle different codecs and lots of cool stuff
