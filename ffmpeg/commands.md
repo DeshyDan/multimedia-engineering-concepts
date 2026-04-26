@@ -374,3 +374,20 @@ time ffmpeg -i input.mp4 -c:v libx264 -crf 23 output.mp4
 # Dry run (check filter graph without encoding)
 ffmpeg -i input.mp4 -vf "scale=1280:-2,fps=30" -f null -
 ```
+
+---
+
+## References
+
+- **FFmpeg Man Page** — https://ffmpeg.org/ffmpeg.html
+- **ffprobe Man Page** — https://ffmpeg.org/ffprobe.html
+- **FFmpeg All Options** — https://ffmpeg.org/ffmpeg-all.html
+- **FFmpeg Codecs Documentation** — https://ffmpeg.org/ffmpeg-codecs.html
+- **FFmpeg Formats Documentation** — https://ffmpeg.org/ffmpeg-formats.html
+- **H.264 Encoding (Wiki)** — https://trac.ffmpeg.org/wiki/Encode/H.264
+- **H.265 Encoding (Wiki)** — https://trac.ffmpeg.org/wiki/Encode/H.265
+- **Seeking (Wiki)** — https://trac.ffmpeg.org/wiki/Seeking
+- **Concatenation (Wiki)** — https://trac.ffmpeg.org/wiki/Concatenate
+- **HW Acceleration Intro** — https://trac.ffmpeg.org/wiki/HWAccelIntro
+- **Thumbnails (Wiki)** — https://trac.ffmpeg.org/wiki/Create%20a%20thumbnail%20image%20every%20X%20seconds
+- **GIF creation (Wiki)** — https://trac.ffmpeg.org/wiki/Slideshow

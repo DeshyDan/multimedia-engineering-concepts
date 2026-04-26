@@ -351,3 +351,43 @@ ffmpeg -formats | grep hls
 --enable-vaapi             # Linux GPU
 --enable-videotoolbox      # macOS
 ```
+
+---
+
+## References
+
+### Library Documentation
+- **libavformat** — https://ffmpeg.org/doxygen/trunk/group__libavf.html
+- **libavcodec** — https://ffmpeg.org/doxygen/trunk/group__lavc.html
+- **libavfilter** — https://ffmpeg.org/doxygen/trunk/group__lavfi.html
+- **libavutil** — https://ffmpeg.org/doxygen/trunk/group__lavu.html
+- **libswscale** — https://ffmpeg.org/doxygen/trunk/group__libsws.html
+- **libswresample** — https://ffmpeg.org/doxygen/trunk/group__lavu__sampmanip.html
+- **libavdevice** — https://ffmpeg.org/doxygen/trunk/group__lavd.html
+- **AVCodecContext fields** — https://ffmpeg.org/doxygen/trunk/structAVCodecContext.html
+- **AVStream** — https://ffmpeg.org/doxygen/trunk/structAVStream.html
+- **AVPacket** — https://ffmpeg.org/doxygen/trunk/structAVPacket.html
+- **AVFrame** — https://ffmpeg.org/doxygen/trunk/structAVFrame.html
+
+### Codec Libraries
+- **x264** — https://www.videolan.org/developers/x264.html
+- **x265** — https://x265.readthedocs.io/en/stable/
+- **libvpx (VP8/VP9)** — https://www.webmproject.org/code/
+- **libaom (AV1)** — https://aomedia.googlesource.com/aom
+- **SVT-AV1** — https://github.com/AOMediaCodec/SVT-AV1
+- **rav1e** — https://github.com/xiph/rav1e
+- **libfdk-aac** — https://github.com/mstorsjo/fdk-aac
+- **libopus** — https://opus-codec.org
+
+### Hardware Acceleration
+- **NVENC/NVDEC** — https://developer.nvidia.com/nvidia-video-codec-sdk
+- **AMF** — https://github.com/GPUOpen-LibrariesAndSDKs/AMF
+- **VideoToolbox** — https://developer.apple.com/documentation/videotoolbox
+- **VAAPI** — https://intel.github.io/libva/
+- **Intel QSV** — https://www.intel.com/content/www/us/en/architecture-and-technology/quick-sync-video/quick-sync-video-general.html
+- **FFmpeg HW Accel Intro** — https://trac.ffmpeg.org/wiki/HWAccelIntro
+
+### Build Guides
+- **Compilation Guide (Ubuntu)** — https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu
+- **Compilation Guide (macOS)** — https://trac.ffmpeg.org/wiki/CompilationGuide/macOS
+- **Compilation Guide (Windows)** — https://trac.ffmpeg.org/wiki/CompilationGuide/MinGW

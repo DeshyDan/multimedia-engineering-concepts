@@ -369,3 +369,53 @@ ffmpeg -i input.mp4 \
 | **dash.js** | MPEG-DASH | Apache 2.0 |
 | **Video.js** | Multiple (with plugins) | Apache 2.0 |
 | **Plyr** | Multiple | MIT |
+
+---
+
+## References
+
+### HLS
+- **IETF RFC 8216 (HLS)** — https://datatracker.ietf.org/doc/html/rfc8216
+- **Apple HLS Overview** — https://developer.apple.com/documentation/http-live-streaming
+- **Apple HLS Authoring Specification** — https://developer.apple.com/documentation/http-live-streaming/hls-authoring-specification-for-apple-devices
+- **Low-Latency HLS (Apple)** — https://developer.apple.com/documentation/http-live-streaming/enabling-low-latency-hls
+- **FFmpeg HLS Muxer** — https://ffmpeg.org/ffmpeg-formats.html#hls-1
+- **Creating HLS streams (FFmpeg Wiki)** — https://trac.ffmpeg.org/wiki/creating%20a%20HLS%20stream
+
+### MPEG-DASH
+- **ISO/IEC 23009-1 (DASH)** — https://www.iso.org/standard/83314.html
+- **DASH-IF Guidelines** — https://dashif.org/guidelines/
+- **FFmpeg DASH Muxer** — https://ffmpeg.org/ffmpeg-formats.html#dash-1
+- **Shaka Packager (DASH/HLS)** — https://github.com/shaka-project/shaka-packager
+
+### RTMP
+- **Adobe RTMP Specification** — https://rtmp.veriskope.com/docs/spec/
+- **FFmpeg RTMP Protocol** — https://ffmpeg.org/ffmpeg-protocols.html#rtmp
+- **Nginx-RTMP Module** — https://github.com/arut/nginx-rtmp-module
+- **FFmpeg Streaming Guide** — https://trac.ffmpeg.org/wiki/StreamingGuide
+
+### SRT
+- **SRT Alliance** — https://www.srtalliance.org
+- **SRT IETF Draft** — https://datatracker.ietf.org/doc/html/draft-sharabayko-srt
+- **SRT GitHub** — https://github.com/Haivision/srt
+- **FFmpeg SRT Protocol** — https://ffmpeg.org/ffmpeg-protocols.html#srt
+
+### WebRTC / WHIP
+- **W3C WebRTC API** — https://www.w3.org/TR/webrtc/
+- **IETF RFC 8825 (WebRTC Overview)** — https://datatracker.ietf.org/doc/html/rfc8825
+- **WHIP (WebRTC HTTP Ingest Protocol)** — https://datatracker.ietf.org/doc/html/draft-ietf-wish-whip
+- **MediaMTX (multi-protocol server)** — https://github.com/bluenviron/mediamtx
+
+### ABR & Adaptive Streaming
+- **Media Source Extensions (W3C)** — https://www.w3.org/TR/media-source/
+- **BOLA ABR algorithm (paper)** — Spiteri et al. (2016): https://arxiv.org/abs/1601.06748
+- **HLS.js** — https://github.com/video-dev/hls.js
+- **Shaka Player** — https://github.com/shaka-project/shaka-player
+- **dash.js** — https://github.com/Dash-Industry-Forum/dash.js
+
+### DRM
+- **W3C Encrypted Media Extensions** — https://www.w3.org/TR/encrypted-media/
+- **MPEG-CENC (Common Encryption)** — ISO/IEC 23001-7: https://www.iso.org/standard/84637.html
+- **Widevine** — https://widevine.com
+- **PlayReady** — https://www.microsoft.com/playready/
+- **FairPlay Streaming** — https://developer.apple.com/streaming/fps/

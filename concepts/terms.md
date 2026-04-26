@@ -261,3 +261,16 @@ See Frame.
 
 **YUV / YCbCr**
 A color model that separates luminance (Y) from chrominance (Cb = blue-difference, Cr = red-difference). Used by most video codecs and formats. More efficient for compression than RGB because the human eye is more sensitive to brightness than color.
+
+---
+
+## References
+
+- **FFmpeg Glossary** — https://trac.ffmpeg.org/wiki/Glossary
+- **MPEG Glossary** — https://mpeg.chiariglione.org/standards/glossary
+- **Digital Video Fundamentals** — Charles Poynton, *Digital Video and HD: Algorithms and Interfaces* (2nd ed., Morgan Kaufmann, 2012)
+- **Timecode and timestamps** — https://ffmpeg.org/ffmpeg.html#toc-AVOptions (see PTS/DTS sections)
+- **EBU R128 Loudness** — https://tech.ebu.ch/publications/r128
+- **ITU-R BT.601, BT.709, BT.2020** — https://www.itu.int/rec/R-REC-BT/en
+- **YUV/YCbCr color model** — https://www.itu.int/rec/R-REC-BT.601
+- **GOP structure explained** — https://trac.ffmpeg.org/wiki/Encode/H.264#a2.ChooseaPrereset

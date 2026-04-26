@@ -441,3 +441,20 @@ ffmpeg -re -i input.mp4 \
   -f flv \
   rtmp://ingest.server.com/live/stream_key
 ```
+
+---
+
+## References
+
+- **H.264 Encoding Guide** — https://trac.ffmpeg.org/wiki/Encode/H.264
+- **H.265 Encoding Guide** — https://trac.ffmpeg.org/wiki/Encode/H.265
+- **HLS Streaming Guide** — https://trac.ffmpeg.org/wiki/creating%20a%20HLS%20stream
+- **DASH Streaming Guide** — https://ffmpeg.org/ffmpeg-formats.html#dash-1
+- **Concatenation Guide** — https://trac.ffmpeg.org/wiki/Concatenate
+- **Screen Recording Guide** — https://trac.ffmpeg.org/wiki/Capture/Desktop
+- **Web Video Delivery** — https://trac.ffmpeg.org/wiki/Encode/H.264#faststartforwebvideo
+- **Loudness normalization** — https://trac.ffmpeg.org/wiki/AudioVolume
+- **HLS Authoring (Apple)** — https://developer.apple.com/documentation/http-live-streaming/hls-authoring-specification-for-apple-devices
+- **VMAF documentation** — https://github.com/Netflix/vmaf/blob/master/resource/doc/index.md
+- **FFmpeg Streaming Guide** — https://trac.ffmpeg.org/wiki/StreamingGuide
+- **EBU R128 Loudness Standard** — https://tech.ebu.ch/publications/r128

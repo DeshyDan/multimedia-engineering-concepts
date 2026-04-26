@@ -376,3 +376,39 @@ ffmpeg -i mix.wav \
   -af "loudnorm=I=-14:LRA=9:TP=-1.0:linear=true" \
   -c:a pcm_s24le master_for_streaming.wav
 ```
+
+---
+
+## References
+
+### FFmpeg Audio Filters
+- **FFmpeg Filters Documentation (Audio)** — https://ffmpeg.org/ffmpeg-filters.html#Audio-Filters
+- **loudnorm filter** — https://ffmpeg.org/ffmpeg-filters.html#loudnorm
+- **volume filter** — https://ffmpeg.org/ffmpeg-filters.html#volume
+- **acompressor filter** — https://ffmpeg.org/ffmpeg-filters.html#acompressor
+- **equalizer filter** — https://ffmpeg.org/ffmpeg-filters.html#equalizer
+- **highpass / lowpass filters** — https://ffmpeg.org/ffmpeg-filters.html#highpass
+- **atempo filter** — https://ffmpeg.org/ffmpeg-filters.html#atempo
+- **pan filter** — https://ffmpeg.org/ffmpeg-filters.html#pan
+- **amix filter** — https://ffmpeg.org/ffmpeg-filters.html#amix
+- **afftdn (noise reduction)** — https://ffmpeg.org/ffmpeg-filters.html#afftdn
+- **showwaves filter** — https://ffmpeg.org/ffmpeg-filters.html#showwaves
+- **showspectrum filter** — https://ffmpeg.org/ffmpeg-filters.html#showspectrum
+- **ebur128 filter** — https://ffmpeg.org/ffmpeg-filters.html#ebur128
+- **FFmpeg Audio Volume wiki** — https://trac.ffmpeg.org/wiki/AudioVolume
+
+### Loudness Standards
+- **EBU R128** — https://tech.ebu.ch/publications/r128
+- **EBU Tech 3341 (Loudness Metering)** — https://tech.ebu.ch/publications/tech3341
+- **EBU Tech 3343 (Practical R128 Guidelines)** — https://tech.ebu.ch/publications/tech3343
+- **ATSC A/85** — https://www.atsc.org/atsc-documents/a85-techniques-for-establishing-and-maintaining-audio-loudness-for-digital-television/
+- **ITU-R BS.1770** — https://www.itu.int/rec/R-REC-BS.1770/en
+- **Spotify Loudness Target** — https://artists.spotify.com/en/help/article/loudness-normalization
+- **YouTube Loudness Guidelines** — https://support.google.com/youtube/answer/1722171
+- **Apple Music Loudness** — https://www.apple.com/apple-music/
+
+### Audio Codecs
+- **AAC Encoding Guide (FFmpeg)** — https://trac.ffmpeg.org/wiki/Encode/AAC
+- **Opus Codec** — https://opus-codec.org; IETF RFC 6716: https://datatracker.ietf.org/doc/html/rfc6716
+- **FLAC Format** — https://xiph.org/flac/format.html
+- **MP3 Encoding Guide** — https://trac.ffmpeg.org/wiki/Encode/MP3

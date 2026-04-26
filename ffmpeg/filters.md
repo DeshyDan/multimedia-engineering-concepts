@@ -505,3 +505,24 @@ Display EBU R128 loudness meter.
 ```bash
 -filter_complex "[0:a]ebur128=video=1:size=1280x480[v][a]"
 ```
+
+---
+
+## References
+
+- **FFmpeg Filters Documentation** — https://ffmpeg.org/ffmpeg-filters.html (primary reference for all filters)
+- **FFmpeg Filtering Guide (Wiki)** — https://trac.ffmpeg.org/wiki/FilteringGuide
+- **libavfilter API** — https://ffmpeg.org/doxygen/trunk/group__lavfi.html
+- **buffersrc** — https://ffmpeg.org/doxygen/trunk/buffersrc_8h.html
+- **buffersink** — https://ffmpeg.org/doxygen/trunk/buffersink_8h.html
+- **Official filtering_video.c example** — https://github.com/FFmpeg/FFmpeg/blob/master/doc/examples/filtering_video.c
+- **Official filtering_audio.c example** — https://github.com/FFmpeg/FFmpeg/blob/master/doc/examples/filtering_audio.c
+- **scale filter** — https://ffmpeg.org/ffmpeg-filters.html#scale
+- **loudnorm filter** — https://ffmpeg.org/ffmpeg-filters.html#loudnorm
+- **overlay filter** — https://ffmpeg.org/ffmpeg-filters.html#overlay
+- **drawtext filter** — https://ffmpeg.org/ffmpeg-filters.html#drawtext
+- **yadif filter** — https://ffmpeg.org/ffmpeg-filters.html#yadif
+- **lut3d filter** — https://ffmpeg.org/ffmpeg-filters.html#lut3d
+- **libvmaf filter** — https://ffmpeg.org/ffmpeg-filters.html#libvmaf
+- **showwaves filter** — https://ffmpeg.org/ffmpeg-filters.html#showwaves
+- **showspectrum filter** — https://ffmpeg.org/ffmpeg-filters.html#showspectrum

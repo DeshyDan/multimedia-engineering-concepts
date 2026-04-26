@@ -422,3 +422,35 @@ ffmpeg -i input.mp4 -c:a pcm_s16le output.wav
 | Archival | H.265 or AV1 | FLAC | MKV |
 | Low-latency live streaming | H.264 (baseline, low GOP) | AAC | MPEG-TS (RTMP) |
 | VoIP / WebRTC | VP8/H.264 | Opus | — |
+
+---
+
+## References
+
+### Container Formats
+- **MP4 / ISO BMFF Standard** — ISO/IEC 14496-12: https://www.iso.org/standard/83102.html
+- **Matroska Specification** — https://matroska.org/technical/specs/index.html; IETF RFC 9559: https://www.rfc-editor.org/rfc/rfc9559
+- **WebM Container Guidelines** — https://www.webmproject.org/docs/container/
+- **MPEG-TS Standard** — ISO/IEC 13818-1: https://www.iso.org/standard/74427.html
+- **FFmpeg MP4 Muxer** — https://ffmpeg.org/ffmpeg-formats.html#mp4
+- **FFmpeg Matroska Muxer** — https://ffmpeg.org/ffmpeg-formats.html#matroska
+- **`-movflags +faststart` explained** — https://trac.ffmpeg.org/wiki/Encode/H.264#faststartforwebvideo
+
+### Video Codecs
+- **H.264 Encoding Guide** — https://trac.ffmpeg.org/wiki/Encode/H.264
+- **H.264 Standard (ITU-T H.264)** — https://www.itu.int/rec/T-REC-H.264/en
+- **H.265/HEVC Encoding Guide** — https://trac.ffmpeg.org/wiki/Encode/H.265
+- **H.265 Standard (ITU-T H.265)** — https://www.itu.int/rec/T-REC-H.265/en
+- **VP9 Encoding Guide** — https://trac.ffmpeg.org/wiki/Encode/VP9
+- **VP9 Spec** — https://www.webmproject.org/vp9/
+- **AV1 Encoding Guide** — https://trac.ffmpeg.org/wiki/Encode/AV1
+- **AV1 Specification** — https://aomediacodec.github.io/av1-spec/
+- **x264 Options Reference** — https://www.videolan.org/developers/x264.html
+- **x265 Options Reference** — https://x265.readthedocs.io/en/stable/
+
+### Audio Codecs
+- **AAC Encoding Guide** — https://trac.ffmpeg.org/wiki/Encode/AAC
+- **AAC Standard (MPEG-4)** — ISO/IEC 14496-3: https://www.iso.org/standard/43345.html
+- **Opus RFC** — IETF RFC 6716: https://datatracker.ietf.org/doc/html/rfc6716
+- **MP3 Encoding Guide** — https://trac.ffmpeg.org/wiki/Encode/MP3
+- **FLAC Format Specification** — https://xiph.org/flac/format.html

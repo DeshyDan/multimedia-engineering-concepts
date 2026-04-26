@@ -394,3 +394,46 @@ ffmpeg -i input.mp4 -c:v libx264 -threads 8 output.mp4
 # Set slice threading (for real-time applications)
 ffmpeg -i input.mp4 -c:v libx264 -x264opts sliced_threads=1 output.mp4
 ```
+
+---
+
+## References
+
+### FFmpeg Video Filtering
+- **FFmpeg Filters Documentation** — https://ffmpeg.org/ffmpeg-filters.html
+- **FFmpeg Filtering Guide (Wiki)** — https://trac.ffmpeg.org/wiki/FilteringGuide
+- **scale filter** — https://ffmpeg.org/ffmpeg-filters.html#scale
+- **crop filter** — https://ffmpeg.org/ffmpeg-filters.html#crop
+- **pad filter** — https://ffmpeg.org/ffmpeg-filters.html#pad
+- **overlay filter** — https://ffmpeg.org/ffmpeg-filters.html#overlay
+- **drawtext filter** — https://ffmpeg.org/ffmpeg-filters.html#drawtext
+- **yadif deinterlacer** — https://ffmpeg.org/ffmpeg-filters.html#yadif
+- **bwdif deinterlacer** — https://ffmpeg.org/ffmpeg-filters.html#bwdif
+- **thumbnail filter** — https://ffmpeg.org/ffmpeg-filters.html#thumbnail
+- **Thumbnails how-to** — https://trac.ffmpeg.org/wiki/Create%20a%20thumbnail%20image%20every%20X%20seconds
+
+### Quality Metrics
+- **PSNR filter** — https://ffmpeg.org/ffmpeg-filters.html#psnr
+- **SSIM filter** — https://ffmpeg.org/ffmpeg-filters.html#ssim
+- **VMAF (Netflix)** — https://github.com/Netflix/vmaf
+- **libvmaf filter** — https://ffmpeg.org/ffmpeg-filters.html#libvmaf
+- **SSIM research paper** — Wang, Z. et al. "Image quality assessment: from error visibility to structural similarity" (2004): https://ece.uwaterloo.ca/~z70wang/research/ssim/
+
+### HDR
+- **ITU-R BT.2020** — https://www.itu.int/rec/R-REC-BT.2020/en
+- **ITU-R BT.2100 (PQ and HLG)** — https://www.itu.int/rec/R-REC-BT.2100/en
+- **SMPTE ST 2084 (PQ)** — https://ieeexplore.ieee.org/document/7291452
+- **FFmpeg HDR/colorspace guide** — https://trac.ffmpeg.org/wiki/colorspace
+- **zscale filter** — https://ffmpeg.org/ffmpeg-filters.html#zscale
+- **tonemap filter** — https://ffmpeg.org/ffmpeg-filters.html#tonemap
+
+### Hardware Acceleration
+- **FFmpeg HW Accel Intro** — https://trac.ffmpeg.org/wiki/HWAccelIntro
+- **NVIDIA NVENC/NVDEC** — https://trac.ffmpeg.org/wiki/HWAccelIntro#CUDA
+- **VAAPI** — https://trac.ffmpeg.org/wiki/Hardware/VAAPI
+- **VideoToolbox (macOS)** — https://trac.ffmpeg.org/wiki/HWAccelIntro#VideoToolbox
+- **Intel QSV** — https://trac.ffmpeg.org/wiki/Hardware/QuickSync
+
+### ABR Streaming
+- **Apple HLS Authoring Specification** — https://developer.apple.com/documentation/http-live-streaming/hls-authoring-specification-for-apple-devices
+- **DASH-IF Content Protection** — https://dashif.org/guidelines/
