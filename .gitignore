@@ -53,3 +53,11 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# C example build outputs (compiled binaries without extension, produced by examples/c/Makefile)
+examples/c/probe
+examples/c/remux
+examples/c/decode_video
+examples/c/encode_video
+examples/c/transcode
+examples/c/filtering
